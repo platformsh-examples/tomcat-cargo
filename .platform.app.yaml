@@ -37,5 +37,5 @@ mounts:
 web:
     commands:
         start: |
-          cp -rf target_bkp target
+          cp -rf target_bkp/* target
           mvn cargo:run -DskipTests
