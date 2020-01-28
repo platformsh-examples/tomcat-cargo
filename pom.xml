@@ -41,6 +41,9 @@
                 <configuration>
                     <container>
                         <containerId>${container.id}</containerId>
+                        <zipUrlInstaller>
+                            <url>https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat/9.0.29/tomcat-9.0.29.zip</url>
+                        </zipUrlInstaller>
                     </container>
                     <configuration>
                         <type>standalone</type>
